@@ -9,13 +9,13 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s ;
   }
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,6 +26,25 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.kw-input {
+  width: 120px;
+  height: 20px;
+}
+
+.search-btn {
+  margin: 0.7rem;
+  width: 90px;
+  height: 25px;
+  border: none;
+  color: white;
+  background-color: darkgreen;
+}
+
+.search-btn:hover{
+  cursor: pointer;
+  box-shadow: 3px 0 3px 0 #282c34;
 }
 
 @keyframes App-logo-spin {
